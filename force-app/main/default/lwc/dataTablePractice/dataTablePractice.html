@@ -1,0 +1,9 @@
+<template>
+    <lightning-button label="Delete" variant="brand" onclick={handleDelete}></lightning-button>
+    <lightning-datatable
+    key-field="Id"
+    data={data}
+    columns={columns}
+    onrowselection={handlerowSelection}
+    ></lightning-datatable>
+</template>
